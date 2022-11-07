@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="quote">
+            <h1>If you do not change direction, you may end up where you are heading.</h1>
+            <h2>Lao Tzu</h2>
+        </div>
+        <img src="images/laotzu.jpeg" alt="Lao Tzu">
+    </header>
+    <main>
+        <section class="questions">
+            <article>
+                <a href="#">How should I set my goals?</a>
+            </article>
+            <article>
+                <a href="#">How do I build momentum?</a>
+            </article>
+            <article>
+                <a href="#">How do I persevere through difficult tasks?</a>
+            </article>
+            <article>
+                <a href="#">How do I accomplish my goals?</a>
+            </article>
+        </section>
+        <section class="reviews">
+            <article>
+                <img src="images/success1.jpg">
+                <div class="review-text">
+                    <h2>Josh P.</h2>
+                    <p>Motivation is one of the most important aspects of life. Without it, we would be lost and confused. The human mind is a powerful tool. It works 24/7 for us, and most of us don't know how to use it to its full potential. When it comes to motivation, we all need a little nudge.
+                        Motivation is a vital part of self-development.</p>
+                </div>
+            </article>
+            <article>
+                <img src="images/success2.webp">
+                <div class="review-text">
+                    <h2>Jordan B.</h2>
+                    <p>I bought this to track my fitness progress and to motivate me to work out more and to get into shape. I recommend this to all my friends too! It's easy to use and it's pretty cheap. I mean, I'm a runner so it's not like I spend that much time looking at it, but it's still nice to have it.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <form>
+            <input type="text" placeholder="Your name"> <br>
+            <input type="email" placeholder="Your e-mail"> <br>
+            <input 
+                type="text" placeholder="Your credit card number" 
+                id="card"
+                onkeypress="this.value = cardInput(this.value)"
+                maxlength="20"
+                required>
+            <input type="text" placeholder="CVV" id="cvv" maxlength="3" required> <br>
+            <input type="submit" id="submitButton">
+        </form>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

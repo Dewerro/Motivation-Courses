@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #2d2d34;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    color: #e2dcde;
+    font-size: 2vh;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 2px;
+    margin-right: 30px;
+}
+
+header .quote {
+    margin-left: 30px;
+}
+
+header .quote h2 {
+    font-style: italic;
+    text-align: right;
+}
+
+/* Main */
+
+main .questions {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #b2abf2;
+    justify-content: space-around;
+}
+
+main .questions article a {
+    color: #2d2d34;
+    text-decoration: none;
+    font-size: large;
+}
+
+main .reviews {
+    position: relative;
+    flex-direction: column;
+    width: 50%;
+    left: 30%;
+}
+
+main .reviews article {
+    display: flex;
+    color: #e2dcde;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .reviews img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+main .review-text {
+    margin-left: 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #202020;
+}
+
+footer form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+footer input {
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: #2d2d34;
+    color: #e2dcde;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#submitButton {
+    width: 210px;
+    height: 50px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#card {
+    width: 150px;
+}
+
+#cvv {
+    width: 50px;
+}
+
+/* <!-- colors: -->
+
+<!-- purple: b2abf2 -->
+<!-- gainsboro: e2dcde -->
+<!-- thistle: ceb1be -->
+<!-- old rose: b97375 -->
+<!-- raisin black: 2d2d34 --> */
