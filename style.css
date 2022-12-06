@@ -233,13 +233,11 @@ main .reviews img {
     }
     .reviews__article:hover img {
         border-radius: 2px 2px 2px 2px;
-        /* transform: translate(-10px, -10px); */
         transform: scale(1.05);
         box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.2),
                     -10px -10px 0px 0px rgba(255, 255, 255, 0.2);
     }
     .reviews__article:hover .review-text {
-        /* box-shadow: 0px -100px 100px -100px rgba(255, 255, 255, 0.4) inset; */
         box-shadow: none;
     }
     main .review-text {
