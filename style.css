@@ -163,7 +163,7 @@ main .review-text {
 }
 
 .review-text p::after {
-    content: 'Rated: \2605\2606\2606\2606\2606';
+    content: 'Rated: \2605\2605\2605\2605\2606';
     position: absolute;
     left: 0;
     top: 30px;
